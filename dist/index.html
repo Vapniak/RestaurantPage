@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Under The Rose</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-zinc-800 h-screen w-screen text-zinc-400 font-sans">
+    <div class="flex justify-center w-full">
+      <ul
+        class="flex bg-zinc-900 text-2xl p-4 px-8 rounded-b-none fixed justify-around sm:w-[60%] w-full sm:rounded-b-full gap-4 sm:gap-0"
+      >
+        <li class="cursor-pointer hover:text-zinc-300 transition aria-selected:text-rose-500" aria-selected="true">Home</li>
+        <li class="cursor-pointer hover:text-zinc-300 transition aria-selected:text-rose-500" aria-selected="false">Menu</li>
+        <li class="cursor-pointer hover:text-zinc-300 transition aria-selected:text-rose-500" aria-selected="false">Contact</li>
+      </ul>
+      <div class="mt-16 text-zinc-50" id="content">
+          <h1 class="text-5xl my-4">Under The Rose</h1>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
